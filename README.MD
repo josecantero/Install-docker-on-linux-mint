@@ -2,6 +2,7 @@ Install docker on linux mint is not easy and there is not official documentation
 
 # Install required packages
 sudo apt-get update
+
 sudo apt-get install ca-certificates curl gnupg
 
 # Add Docker's official GPG key
