@@ -15,7 +15,7 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 # Add the Docker repository with the correct Ubuntu code name
 echo \\
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  jammy stable" | \
+  jammy stable" | \\
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 # Update the package index
