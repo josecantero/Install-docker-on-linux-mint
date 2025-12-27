@@ -28,6 +28,11 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 # Install Docker Desktop
 Download docker for Ubuntu deb package from [https://www.odoo.com/es_ES/page/download]
 
+# Check the Docker status
+sudo systemctl status docker
+
+# Run Docker
+sudo systemctl start docker
 
 
 
